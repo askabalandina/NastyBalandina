@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 50]
+
+plt.plot(x, y, marker='o')
+plt.title("Пример графика")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.show()
+##   для задания создавался новый проект, с откатом версии пайтон, тк не удавалось установить библиотеку
